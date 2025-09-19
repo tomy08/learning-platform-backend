@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Learning Platform API')
+  res.send('Welcome to the Learning Platform API 1234')
 })
 
 app.listen(PORT, () => {
